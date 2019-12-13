@@ -48,6 +48,8 @@ def monopoly_with_fourth_tier
   monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
   monopoly[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
   monopoly[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
+  binding.pry 
+  
   monopoly[:railroads][:names][:reading_railroad] = {}
   
   monopoly 
